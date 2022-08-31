@@ -3,7 +3,21 @@
     height: 70px;
    
 }
+.painel{
+    height: 70%;
+    width: 100%;
+    border: solid;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow); 
+}
 
+.crd{
+    display: block;
+    margin: 0px auto;
+    width: 97%;
+    height: 480px;
+    margin-top: 15px;
+}
 
 .tm{
     height: 80px;

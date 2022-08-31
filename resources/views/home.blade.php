@@ -29,7 +29,12 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<br>
+   <h2 id = "cardapio">Cardápio<h2>
 
+  <div class = "container painel">
+     <img src = "img/cardapio.jpg" alt= "cardápio" class = "crd">
+  </div>
 
 
 

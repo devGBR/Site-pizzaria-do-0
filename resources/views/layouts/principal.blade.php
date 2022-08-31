@@ -32,10 +32,10 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cardápio</a>
+        <a class="nav-link" href="#cardapio">Cardápio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Peça online</a>
@@ -62,29 +62,6 @@
     </ul>
   </div>
 </nav>
-        {{-- <nav class="navbar navbar-dark bg-dark tm">
-            
-            <ul class="navbar-nav ml-auto">
-             <img src = "img/icon.jpg" class = "icon">
-             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle conta" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-            </ul>
-        </nav> --}}
             <main class="py-4">
                 @yield('content')
             </main>
