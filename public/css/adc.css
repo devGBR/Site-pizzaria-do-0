@@ -30,3 +30,32 @@ h2{
      
 
 }
+.img{
+    position: relative;
+    left: 90px;
+    width: 300px;
+    height: 200px;
+
+}
+.painel1{   
+    float: right;
+    position: relative;
+    left: 90px;
+    bottom: 243px;
+    margin: 0px 0;
+    padding: 10px;
+    width: 470px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
+    background-color: lightsteelblue;
+}
+.painel1 li {
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 300px;
+    margin:14px;
+    padding-bottom: 10px;
+}
+figcaption{
+    text-align: left;
+}
