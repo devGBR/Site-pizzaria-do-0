@@ -24,8 +24,8 @@
 </head>
     <body>
         <div class = "container">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src = "img/icon.jpg" class = "icon"></a>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <a class="navbar-brand" href="#"><img src = "img/logo.png" class = "icon"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

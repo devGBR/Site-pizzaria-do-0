@@ -3,11 +3,11 @@
 <link href="http://fonts.cdnfonts.com/css/copperplate" rel="stylesheet">
 @endif
 @section('content')
-
+ <div class="painel2">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     
   <div class="carousel-inner">
-    <h2 >Pizzaria Santa Rita</h2>
+    <h2 class = "h2" >Pizzaria Santa Rita</h2>
     <div class="carousel-item active">
       <img class="d-block w-100 h-75" src="img/foto-p.png" alt="First slide">
     </div>
@@ -30,12 +30,14 @@
   </a>
 </div>
 <br>
-   <h2 id = "cardapio">Cardápio<h2>
+
+ 
+   <h2 class = "h2" id = "cardapio">Cardá pio</h2>
 
   <div class = "container painel">
      <img src = "img/cardapio.jpg" alt= "cardápio" class = "crd">
   </div>
-
+  </div>
 
 
 @stop
